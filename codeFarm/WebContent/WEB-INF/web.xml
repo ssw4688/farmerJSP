@@ -188,4 +188,26 @@
      <url-pattern>*.re</url-pattern>
   </servlet-mapping>
   
+  <!-- 정책 페이지 관련 -->
+   <servlet>
+     <servlet-name>PolicyFrontController</servlet-name>
+     <servlet-class>com.farmer.app.policy.PolicyFrontController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+     <servlet-name>PolicyFrontController</servlet-name>
+     <url-pattern>*.po</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 계절별 수확 시기 페이지 관련 -->
+   <servlet>
+     <servlet-name>SeasonCropsFrontController</servlet-name>
+     <servlet-class>com.farmer.app.seasonCrops.SeasonCropsFrontController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+     <servlet-name>SeasonCropsFrontController</servlet-name>
+     <url-pattern>*.sc</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
